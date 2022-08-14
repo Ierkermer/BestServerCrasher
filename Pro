@@ -1,0 +1,55 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Frame.Size = UDim2.new(0.999371469, 0, 1, 0)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.0094339624, 0, 0.122765198, 0)
+TextLabel.Size = UDim2.new(0, 260, 0, 243)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "🤓"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 100.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.0094339624, 0, 0.306317031, 0)
+TextLabel_2.Size = UDim2.new(0, 260, 0, 243)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "🤓"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 100.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0094339624, 0, 0.516090572, 0)
+TextLabel_3.Size = UDim2.new(0, 260, 0, 243)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "🤓"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 100.000
+TextLabel_3.TextWrapped = true
+
+
+game.Players.LocalPlayer:kick("Your Perm Banned Sorry Bud LMAOO")
